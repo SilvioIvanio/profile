@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aliceblue;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    
+}
+
+header h1{
+    font-size: 2.5rem;
+    color: rgb(0, 0, 30);
+    margin-bottom: 5px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(0, 0, 30);
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+#bio {
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: #000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+
+    #quote {
+        margin-top: 20px;
+    }
+}
+
+#bio h2 {
+    color: rgb(0, 0, 30);
+    margin-bottom: 5px;
+}
+
+#hobbies {
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    text-align-last: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+#footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    #footer {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: rgb(75, 75, 155);
+}
+
+/* Dark mode */
+body.dark {
+    background-color: #121212;
+}
+
+body.dark header,
+body.dark #bio,
+body.dark #hobbies,
+body.dark footer {
+    background-color: #1e1e1e;
+    color: #eee;
+
+    h1 {color: #eee;}
+    h2 {color: #eee;}
+    p {color: #eee;}
+
+    a {color: #ddd}
+
+    a:hover {
+        transition: color 0.5s;
+        color: rgb(100,100,255);
+    }
+}
