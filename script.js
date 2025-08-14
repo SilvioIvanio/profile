@@ -1,4 +1,5 @@
-const button = document.getElementById('theme');
+// Mode toggle functionality
+const button = document.getElementById('mode');
 button.addEventListener('click', () => {
         document.body.classList.toggle('dark'); 
         // Change button text depending on mode
