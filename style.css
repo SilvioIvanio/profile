@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* Body styles */
+/* Body styling */
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: aliceblue;
@@ -130,6 +130,14 @@ a {
 /* Link hover effect */
 a:hover {
     color: rgb(75, 75, 155);
+}
+
+#mode {
+    font: inherit;
+    font-size: 12px;
+    padding-right: 3px;
+    cursor: pointer;
+    color: #333;
 }
 
 /* Dark mode */
