@@ -26,3 +26,5 @@ A modern, responsive personal profile page built using HTML, CSS, and JavaScript
 
 ## Browser Compatibility
 Tested and working on modern browsers (Chrome, Firefox, Safari, Edge)
+
+UI/UX improvements coming soon...
