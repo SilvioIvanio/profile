@@ -1,4 +1,4 @@
-# Personal Profile Page
+just# Personal Profile Page
 
 ## Overview
 A modern, responsive personal profile page built using HTML, CSS, and JavaScript. This project demonstrates fundamental web development concepts and best practices.
@@ -26,5 +26,3 @@ A modern, responsive personal profile page built using HTML, CSS, and JavaScript
 
 ## Browser Compatibility
 Tested and working on modern browsers (Chrome, Firefox, Safari, Edge)
-
-UI/UX improvements coming soon...
