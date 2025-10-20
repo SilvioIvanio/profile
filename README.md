@@ -1,4 +1,4 @@
-just# Personal Profile Page
+# Personal Profile Page
 
 ## Overview
 A modern, responsive personal profile page built using HTML, CSS, and JavaScript. This project demonstrates fundamental web development concepts and best practices.
