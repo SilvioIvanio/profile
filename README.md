@@ -23,6 +23,3 @@ A modern, responsive personal profile page built using HTML, CSS, and JavaScript
 - **JavaScript**:
   - Interactive dark mode toggle
   - DOM manipulation for dynamic content
-
-## Browser Compatibility
-Tested and working on modern browsers (Chrome, Firefox, Safari, Edge)
